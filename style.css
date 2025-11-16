@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+header {
+    background-color: #343a40; /* Ciemniejszy kolor dla tematu baz danych */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.zadanie-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.opis-bazy {
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-size: 0.9em;
+}
+
+.opis-bazy h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.opis-zadania {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#kod-css {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 16px;
+    resize: vertical;
+}
+
+#sprawdz-przycisk {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#sprawdz-przycisk:hover {
+    background-color: #0056b3;
+}
+
+.komunikat.sukces {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.komunikat.blad {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 10px;
+}

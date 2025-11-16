@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trener SQL - INF.03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Trener SQL dla Egzaminu INF.03</h1>
+        <p>Powodzenia!</p>
+    </header>
+
+    <main>
+        <section class="zadanie-container">
+            <h2 id="zadanie-tytul"></h2>
+            <div class="opis-bazy">
+                <h3>Struktura Bazy Danych:</h3>
+                <p>
+                    Klienci: (KlientID, Nazwisko, Miasto, LimitKredytowy)
+                    <br>
+                    Zamowienia: (ZamowienieID, KlientID, DataZamowienia, Wartosc)
+                </p>
+            </div>
+            
+            <p id="zadanie-opis" class="opis-zadania"></p>
+
+            <div class="edytor-kod-container">
+                <h3>Twoje zapytanie SQL:</h3>
+                <textarea id="kod-css" rows="10" placeholder="Wpisz tutaj swoje zapytanie SQL (np. SELECT * FROM Klienci;)"></textarea>
+                <button id="sprawdz-przycisk">Sprawdź Zapytanie!</button>
+                <p id="komunikat" class="komunikat"></p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
